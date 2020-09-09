@@ -1,6 +1,7 @@
 # Basic-Modeling-for-Discrete-Optimization
-Basic Modeling for Discrete Optimization by The University of Melbourne &amp; The Chinese University of Hong Kong
 https://www.coursera.org/learn/basic-modeling
+
+Basic Modeling for Discrete Optimization by The University of Melbourne &amp; The Chinese University of Hong Kong
 
 About this Course
 18,022 recent views

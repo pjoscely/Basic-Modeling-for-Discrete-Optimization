@@ -22,3 +22,7 @@ output [
  "% interest, and repaying ", show_float(0, 2, R), 
   "\nper quarter for 1 year leaves ", show_float(0, 2, B4), " owing\n"
 ];
+/*
+Borrowing 10000.00 at 4.00% interest, and repaying 2754.90
+per quarter for 1 year leaves 0.00 owing
+*/

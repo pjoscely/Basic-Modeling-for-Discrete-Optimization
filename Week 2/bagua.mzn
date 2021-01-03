@@ -12,6 +12,8 @@ constraint forall(s in SYMB)(card(attacks intersect group[s]) <= 1);
 %constraint card(attacks) = size;
 
 var int: totalDamages = sum(p in attacks)(damage[p]);
-solve maximize (totalDamages); % Goal: maximize attack reward
+
+% Goal: maximize attack reward
+solve maximize (totalDamages);
 
 output["Attacks: ", show(attacks), " and damages: ", show(totalDamages)]

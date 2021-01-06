@@ -12,7 +12,6 @@ array[NEGOTIATOR,NEGOTIATOR] of int: joint;
 
 array[1..u] of var NEGOTIATOR: party;
 
-
 constraint forall(i in 1..l)(party[i] > dummy);
 
 constraint forall(i in 1..u-1)(party[i] >= party[i+1] + (party[i+1] != dummy));
